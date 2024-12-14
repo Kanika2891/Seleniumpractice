@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-23T15:42:05 IST" name="Default suite" finished-at="2023-11-23T15:42:10 IST" duration-ms="5129">
+    <groups>
+    </groups>
+    <test started-at="2023-11-23T15:42:05 IST" name="Default test" finished-at="2023-11-23T15:42:10 IST" duration-ms="5129">
+      <class name="Test.TestPractice.Shadowdom2">
+        <test-method is-config="true" signature="browser()[pri:0, instance:Test.TestPractice.Shadowdom2@5524cca1]" started-at="2023-11-23T15:42:05 IST" name="browser" finished-at="2023-11-23T15:42:08 IST" duration-ms="3931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="ShadowdomSet2()[pri:0, instance:Test.TestPractice.Shadowdom2@5524cca1]" started-at="2023-11-23T15:42:08 IST" name="ShadowdomSet2" finished-at="2023-11-23T15:42:09 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShadowdomSet2 -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Test.TestPractice.Shadowdom2@5524cca1]" started-at="2023-11-23T15:42:09 IST" name="exit" finished-at="2023-11-23T15:42:10 IST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- Test.TestPractice.Shadowdom2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
