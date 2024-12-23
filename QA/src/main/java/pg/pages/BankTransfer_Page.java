@@ -6,12 +6,10 @@ import org.openqa.selenium.WebDriver;
 import pg.util.API;
 import pg.util.Constants;
 import pg.util.ElementUtil;
-import pg.util.SimulateBankTransferAPI;
 
 public class BankTransfer_Page {
 	private WebDriver driver;
 	private ElementUtil eleUtil;
-	SimulateBankTransferAPI simulate;
 	
 	private By confirmbutton=By.xpath("//p[text()='I have made this payment']");
 
@@ -26,8 +24,6 @@ public class BankTransfer_Page {
 	
 	public PaymentConfirm_Page StatusCall() {
 		eleUtil.doClick(confirmbutton);
-		simulate= new SimulateBankTransferAPI();
-		simulate.simulatebanktransfer();
 		System.out.println("API targetted");
 		return new PaymentConfirm_Page(driver);
 
